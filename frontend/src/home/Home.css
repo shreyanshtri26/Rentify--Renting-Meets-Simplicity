@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+.header{
+    width: 100vw;
+    height: 80vh;
+}
+
+.typewrite{
+    font-family: fantasy;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.mainarea {
+    background-color: #76a5e2;
+    display: flex;
+    justify-content: center;
+    background-color: #e9eff6;
+    border-radius: 10px;
+    margin: 2% 2%;
+    padding-top: 1%;
+}
+
+.page{
+    color: #151010!important;
+}
+
+.center-align{
+    display: flex;
+    justify-content: center;
+    margin: 2% 2%;
+    padding-top: 1%;
+}
+
+.center-align-mt0{
+    display: flex;
+    justify-content: center;
+    margin: 1% 2%;
+}
+
+.center-align-mt1{
+    display: flex;
+    justify-content: center;
+}
+
+.ant-pagination-item-link{
+    color: #ffffff!important;
+}
+
+.ant-pagination-item-active{
+    color: #060C14!important;
+}
+
+.mainarea label{
+    color: #fffefe!important;
+}
+
+.button{
+    background-color: #f90303;
+    color: rgb(4, 6, 7);
+    text-align: left;
+    font-size: 16px;
+    width: 30%;
+    margin-top: 5% ;
+}
+
+.button-align{
+    background-color: #d65e19;
+    color: rgb(105, 112, 117);
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+    border: none;
+}
+
+.btn.btn-primary{
+    background-color: #d65e19!important;
+    border: none!important;
+}
+
+.color{
+    color: #d65e19;
+}
+
+.button-align:hover{
+    background-color: #d65e19!important;
+    color: aliceblue!important;
+    text-align: center;
+    font-size: large;
+    width: 100%;
+    margin-top: 5%;
+    border: none!important;
+}
+
+.button:hover{
+    background-color: #10f105!important;
+    color: aliceblue!important;
+    font-size: large;
+    text-align: left;
+    width: 30%;
+    margin-top: 5%;
+    border: none!important;
+}
+
+.count{
+    justify-content: space-between;
+}
+
+.box-1,.box-3{
+    background-color: #1065d5c1;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: #fff;
+    padding: 50px;
+}
+
+.box-2{
+    border-radius: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    padding: 50px;
+    min-height: 100%;
+    background: linear-gradient(0deg, rgba(36, 32, 28, 0.863), rgb(219, 238, 15)), url('../images/main-pg.jpeg');
+    background-size: cover;
+}
+
+.box-4{
+    border-radius: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    padding: 50px;
+    min-height: 100%;
+    background: linear-gradient(0deg, rgba(36, 32, 28, 0.863), rgba(255, 108, 23, 0.712)), url('../images/villa.jpg');
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .header img {
+        width: 800px;
+    }
+}
+
+@media (max-width: 768px) {
+  .header img {
+        width: 500px;
+    }
+}
+
+@media (min-width: 992px) {
+  .header img {
+        width: 700px;
+    }
+}
+
+@media (min-width: 1200px) {
+  .header img {
+        width: 900px;
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ad-area{
+    background-color: #4851f3;
+    border-radius: 10px;
+    color: #d8d8d8;
+    margin: 2% 2%;
+}
+
+.area{
+    margin: 0px 5px;
+}
+
+.header2-img{
+    background-image: url("../images/rent.jpg");
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.button-post{
+    width: 150px;
+    color: #ffffff;
+    background-color: #f37b36;
+    border: none;
+}
+
+.button-post:hover{
+    width: 150px;
+    color: #ffffff!important;
+    background-color: #f30b0b !important;
+    border: none;
+}
