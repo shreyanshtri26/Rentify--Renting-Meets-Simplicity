@@ -3,7 +3,8 @@
 This project is a full-stack application developed for the Rentify coding challenge.
 
 ## Getting Started
-![Homepage](image.png)
+![image](https://github.com/shreyanshtri26/Rentify--Renting-Meets-Simplicity/assets/65079159/07c813df-1da2-4cd3-b04e-9997bb367852)
+
 ### Prerequisites
 
 - Node.js (latest LTS version recommended)
